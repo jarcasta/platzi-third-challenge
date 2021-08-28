@@ -78,12 +78,12 @@ class ItemCard extends StatelessWidget{
               color: isWhite ? Colors.black : Colors.blueGrey ,
               child: Center(
                 child: Ink(
-                  decoration: const ShapeDecoration(
+                  decoration: ShapeDecoration(
                     color: Colors.white,
                     shape: CircleBorder(),
                   ),
                   child: IconButton(
-                    icon: const Icon(Icons.add),
+                    icon: Icon(Icons.add),
                     color: Colors.black,
                     onPressed: () {},
                   ),
