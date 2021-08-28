@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
         body: Container(
           child: Stack(
             children: [
+              ItemCardList(),
               PrincipalAppBar('Ajedrez'),
-              ItemCardList()
             ],
           )
         ),
