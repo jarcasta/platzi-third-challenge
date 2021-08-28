@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:platzi_challenge/PrincipalAppBar.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,9 +16,11 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         body: Container(
-          child: Text(
-            'Hola mundo!'
-          ),
+          child: Stack(
+            children: [
+              PrincipalAppBar('Ajedrez')
+            ],
+          )
         ),
       ),
     );
