@@ -21,15 +21,15 @@ class MyApp extends StatelessWidget {
             children: [
               PrincipalAppBar('Ajedrez'),
               Container(
-                margin: EdgeInsets.only(top: 130),
+                margin: EdgeInsets.only(top: 140),
                 child: Column(
                   children: [
-                    ItemCard('assets/img/chessPieces/Peon.png'),
-                    ItemCard('assets/img/chessPieces/Caballo.png'),
-                    ItemCard('assets/img/chessPieces/Torre.png'),
-                    ItemCard('assets/img/chessPieces/Alfil.png'),
-                    ItemCard('assets/img/chessPieces/Rey.png'),
-                    ItemCard('assets/img/chessPieces/Dama.png'),
+                    ItemCard('assets/img/chessPieces/Peon.png', true),
+                    ItemCard('assets/img/chessPieces/Caballo.png', false),
+                    ItemCard('assets/img/chessPieces/Torre.png', true),
+                    ItemCard('assets/img/chessPieces/Alfil.png', false),
+                    ItemCard('assets/img/chessPieces/Rey.png', true),
+                    ItemCard('assets/img/chessPieces/Dama.png', false),
                   ],
                 ),
               )
