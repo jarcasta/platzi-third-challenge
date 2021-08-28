@@ -74,3 +74,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  assets:
+    - assets/img/chessPieces/Alfil.png
+    - assets/img/chessPieces/Caballo.png
+    - assets/img/chessPieces/Dama.png
+    - assets/img/chessPieces/Peon.png
+    - assets/img/chessPieces/Rey.png
+    - assets/img/chessPieces/Torre.png
