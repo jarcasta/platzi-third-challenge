@@ -7,6 +7,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  String desctiption = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -21,15 +22,15 @@ class MyApp extends StatelessWidget {
             children: [
               PrincipalAppBar('Ajedrez'),
               Container(
-                margin: EdgeInsets.only(top: 140),
+                margin: EdgeInsets.only(top: 160),
                 child: Column(
                   children: [
-                    ItemCard('assets/img/chessPieces/Peon.png', true),
-                    ItemCard('assets/img/chessPieces/Caballo.png', false),
-                    ItemCard('assets/img/chessPieces/Torre.png', true),
-                    ItemCard('assets/img/chessPieces/Alfil.png', false),
-                    ItemCard('assets/img/chessPieces/Rey.png', true),
-                    ItemCard('assets/img/chessPieces/Dama.png', false),
+                    ItemCard('assets/img/chessPieces/Peon.png', true, 'Peon', desctiption),
+                    ItemCard('assets/img/chessPieces/Caballo.png', false, 'Caballo', desctiption),
+                    ItemCard('assets/img/chessPieces/Torre.png', true, 'Torre', desctiption),
+                    ItemCard('assets/img/chessPieces/Alfil.png', false, 'Alfil', desctiption),
+                    ItemCard('assets/img/chessPieces/Rey.png', true, 'Rey', desctiption),
+                    ItemCard('assets/img/chessPieces/Dama.png', false, 'Dama', desctiption),
                   ],
                 ),
               )
